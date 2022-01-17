@@ -16,6 +16,10 @@
 	border: none;
 }
 
+.first-screen {
+	max-height: 617px;
+}
+
 .green-heading {
 	font-weight: 800;
 	font-size: 68px;
@@ -24,4 +28,13 @@
 
 .shopify {
 	color: #49AD09;
+}
+
+/*.img-top {
+	margin-bottom: 161px;
+}*/
+
+.left-green {
+	background: url('img/bgl1.png');
+	background-size: 247px 418px;
 }
