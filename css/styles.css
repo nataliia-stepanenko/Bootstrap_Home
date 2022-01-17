@@ -30,9 +30,14 @@
 	color: #49AD09;
 }
 
-.bg-green {
-	background-image: url('../img/bgl1.png'), url('../img/bgrh.png'), url('../img/bgrv.png');
-	background-size: 20% 80%, 27% auto, 10% 70%;
-	background-repeat: no-repeat;
-	background-position: 5% 23%, 100% 80%, 93% 15%;
+.bg-green-left {
+    background-image: url('../img/bgl1.png');
+    background-repeat: no-repeat;
+    background-position: 40% 55%;
+}
+
+.bg-green-right {
+    background-image: url('../img/bgrh.png'), url('../img/bgrv.png');
+    background-repeat: no-repeat;
+    background-position: 100% 80%, 75% 15%;
 }
