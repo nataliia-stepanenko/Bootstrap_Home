@@ -30,11 +30,9 @@
 	color: #49AD09;
 }
 
-/*.img-top {
-	margin-bottom: 161px;
-}*/
-
-.left-green {
-	background: url('img/bgl1.png');
-	background-size: 247px 418px;
+.bg-green {
+	background-image: url('../img/bgl1.png'), url('../img/bgrh.png'), url('../img/bgrv.png');
+	background-size: 20% 80%, 27% auto, 10% 70%;
+	background-repeat: no-repeat;
+	background-position: 3% 23%, 100% 80%, 93% 15%;
 }
