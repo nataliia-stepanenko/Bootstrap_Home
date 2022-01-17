@@ -12,8 +12,12 @@
 }
 
 .btn-success { 
-	background-color: #49AD09;
 	border: none;
+}
+
+.btn-success:hover {
+    box-shadow: 0 25px 50px rgba(0,0,0,.18);
+    transform: scale(1.02);
 }
 
 .first-screen {
@@ -40,4 +44,25 @@
     background-image: url('../img/bgrh.png'), url('../img/bgrv.png');
     background-repeat: no-repeat;
     background-position: 100% 80%, 75% 15%;
+}
+
+.navbar-two {
+    margin-bottom: 150px;
+}
+
+.card:hover {
+    border: none;
+    box-shadow: 0 60px 60px rgba(0,0,0,.12);
+}
+
+.card:hover .card-link {
+    color: #49AD09;
+}
+
+.card-link {
+    color: #313131;
+}
+
+.card-link:hover {
+    color: #49AD09;
 }
