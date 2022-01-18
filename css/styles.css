@@ -66,3 +66,28 @@
 .card-link:hover {
     color: #49AD09;
 }
+
+.raw-carousel {
+    background-image: url(../img/carousel/base.png);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: center center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+    /*visibility: hidden;*/
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    top: 120%;
+    left: 300%;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    top: 120%;
+    right: 300%;
+}

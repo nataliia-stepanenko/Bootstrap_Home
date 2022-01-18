@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url('../font/Gilroy-ExtraBold.eot');
-    src: url('../font/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('../font/Gilroy-ExtraBold.woff2') format('woff2'),
-        url('../font/Gilroy-ExtraBold.woff') format('woff'),
-        url('../font/Gilroy-ExtraBold.ttf') format('truetype'),
-        url('../font/Gilroy-ExtraBold.svg#Gilroy-ExtraBold') format('svg');
+    src: url('../fonts/Gilroy-ExtraBold.eot');
+    src: url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+        url('../fonts/Gilroy-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('../font/Gilroy-Light.eot');
-    src: url('../font/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
-        url('../font/Gilroy-Light.woff2') format('woff2'),
-        url('../font/Gilroy-Light.woff') format('woff'),
-        url('../font/Gilroy-Light.ttf') format('truetype'),
-        url('../font/Gilroy-Light.svg#Gilroy-Light') format('svg');
+    src: url('../fonts/Gilroy-Light.eot');
+    src: url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Light.woff2') format('woff2'),
+        url('../fonts/Gilroy-Light.woff') format('woff'),
+        url('../fonts/Gilroy-Light.ttf') format('truetype'),
+        url('../fonts/Gilroy-Light.svg#Gilroy-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
