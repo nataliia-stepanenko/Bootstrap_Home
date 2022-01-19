@@ -74,20 +74,58 @@
     background-position: center center;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1;
+    top: 110%;
+    width: 5%;
+}
+
+.carousel-control-prev:hover, .carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+    color: #49AD09;
+}
+
+.carousel-control-prev {
+    left: 40%;
+    color: #313131;
+    background-color: #fff;
+}
+
+.carousel-control-next {
+    right: 40%;
+    background-color: #313131;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    filter: invert(1);
-    /*visibility: hidden;*/
+    /*filter: invert(1);*/
+    display: none;
 }
 
-.carousel-control-prev-icon {
-    position: absolute;
-    top: 120%;
-    left: 300%;
+.fa-star {
+    color: #FBB040;
 }
 
-.carousel-control-next-icon {
+/*.carousel-control-prev-icon-no,
+.carousel-control-next-icon-no {
+    /*filter: invert(1);*/
+}*/
+
+/*.carousel-control-prev-icon-no {
     position: absolute;
     top: 120%;
-    right: 300%;
+    left: 285%;
+    background-color: #fff;
+    border-radius: 70px;
+    width: 110%;
 }
+
+.carousel-control-next-icon-no {
+    position: absolute;
+    top: 120%;
+    right: 285%;
+    background-color: #000;
+    border-radius: 70px;
+}*/
