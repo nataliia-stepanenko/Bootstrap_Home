@@ -117,6 +117,20 @@
     font-size: 3rem;
 }
 
+.social-media {
+    width: 40%;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin {
+    background-color: #F2F2F2;
+}
+
+.fa-linkedin {
+    /*color: #F2F2F2;*/
+}
+
 /*.carousel-control-prev-icon-no,
 .carousel-control-next-icon-no {
     /*filter: invert(1);*/
