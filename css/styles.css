@@ -15,6 +15,7 @@
 	border: none;
 }
 
+.btn-outline-success:hover,
 .btn-success:hover {
     box-shadow: 0 20px 50px rgba(0,0,0,.18);
     transform: scale(1.02);
@@ -106,6 +107,14 @@
 
 .fa-star {
     color: #FBB040;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+}
+
+.h-big {
+    font-size: 3rem;
 }
 
 /*.carousel-control-prev-icon-no,
