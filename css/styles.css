@@ -122,19 +122,44 @@
     height: 13%;
 }
 
+.social-media a {
+    width: 20%;
+    background-color: #F2F2F2;
+}
+
 .facebook-f,
 .twitter,
-.linked-in {
-    background-color: #F2F2F2;
+.linked-in { 
     fill: #313131;
+}
+
+.social-media a:hover {
+    transform: scale(1.1);
+}
+
+.social-media a:hover .facebook-f { 
+    fill: #49AD09;
+}
+
+.social-media a:hover .twitter { 
+    fill: #49AD09;
+}
+
+.social-media a:hover .linked-in { 
+    fill: #49AD09;
+}
+
+.footer-btn:hover .fa-arrow-circle-right {
+    color: #49AD09;
+    transform: scale(1.1);
 }
 
 /*.carousel-control-prev-icon-no,
 .carousel-control-next-icon-no {
-    /*filter: invert(1);*/
-}*/
+    filter: invert(1);
+}
 
-/*.carousel-control-prev-icon-no {
+.carousel-control-prev-icon-no {
     position: absolute;
     top: 120%;
     left: 285%;
