@@ -165,8 +165,8 @@
 }
 
 .social-media {
-    width: 40%;
-    height: 13%;
+    width: 50%;
+    height: 15%;
 }
 
 .social-media a {
@@ -222,3 +222,10 @@
     background-color: #000;
     border-radius: 70px;
 }*/
+
+@media screen and (max-width: 768px) {
+        .green-heading {
+        font-size: calc(1.375rem + 1.5vw);
+        line-height: 1.2;
+    }
+}
