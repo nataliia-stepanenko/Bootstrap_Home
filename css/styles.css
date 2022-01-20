@@ -89,6 +89,10 @@
     background-position: 100% 80%, 75% 15%;
 }
 
+.left-pic-three-ps-2 {
+        padding-left: 0.5rem;
+    }
+
 .navbar-two {
     margin-bottom: 150px;
 }
@@ -227,6 +231,10 @@
         .green-heading {
         font-size: calc(1.375rem + 1.5vw);
         line-height: 1.2;
+    }
+
+    .left-pic-three-ps-2 {
+        padding-left: 0;
     }
 
 
