@@ -237,7 +237,16 @@
         padding-left: 0;
     }
 
+        .carousel-control-prev {
+        left: 35%;
+        color: #313131;
+        background-color: #fff;
+    }
 
+    .carousel-control-next {
+        right: 35%;
+        background-color: #313131;
+    }
 }
 
 @media screen and (max-width: 768px) {
