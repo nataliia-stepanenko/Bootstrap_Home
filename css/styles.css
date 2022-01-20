@@ -283,7 +283,8 @@
             margin-bottom: 10%;
         }
 
-        .footer-nav .footer-logo {
+        .footer-nav .footer-logo,
+        .footer-nav .input-group {
             margin-left: 0;
         }
 
