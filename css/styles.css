@@ -11,6 +11,48 @@
 	font-family: 'Gilroy';
 }
 
+.container-first {
+    background-image: url(../img/bgs/1.png);
+    background-position: 100% 0%;
+    background-size: 6%;
+    background-repeat: no-repeat;
+}
+
+.container-second {
+    background-image: url(../img/bgs/2.png), url(../img/bgs/3.png);
+    background-position: 0% -10%, 100% 35%;
+    background-size: 10%, 9%;
+    background-repeat: no-repeat;
+}
+
+.container-third {
+    background-image: url(../img/bgs/4.png);
+    background-position: 0% 7%;
+    background-size: 8%;
+    background-repeat: no-repeat;
+}
+
+.container-fourth {
+    background-image: url(../img/bgs/5.png);
+    background-position: 100% 40%;
+    background-size: 15%;
+    background-repeat: no-repeat;
+}
+
+.container-fifth {
+    background-image: url(../img/bgs/6.png);
+    background-position: 0% 45%;
+    background-size: 8%;
+    background-repeat: no-repeat;
+}
+
+.container-sixth {
+    background-image: url(../img/bgs/7.png);
+    background-position: 100% 100%;
+    background-size: 4%;
+    background-repeat: no-repeat;
+}
+
 .btn-success { 
 	border: none;
 }
