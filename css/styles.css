@@ -223,9 +223,24 @@
     border-radius: 70px;
 }*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
         .green-heading {
         font-size: calc(1.375rem + 1.5vw);
         line-height: 1.2;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+         .carousel-control-prev {
+        left: 25%;
+        color: #313131;
+        background-color: #fff;
+    }
+
+    .carousel-control-next {
+        right: 25%;
+        background-color: #313131;
     }
 }
